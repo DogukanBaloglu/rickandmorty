@@ -3,6 +3,11 @@ from base import  Base
 
 class Episodes(Base):
     def getAll(self):
+        """
+                 Args: No arg necessary
+
+                 Returns: All episode informations in the json
+        """
         response = requests.get(self.url+'episode/')
         return response.json()
     def getSingle(self, episode):

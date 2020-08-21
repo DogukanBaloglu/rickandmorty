@@ -3,6 +3,11 @@ from base import Base
 
 class Locations(Base):
     def getAll(self):
+        """
+                 Args: No arg necessary
+
+                 Returns: All location informations in the json
+        """
         response = requests.get(self.url+'location/')
         return response.json()
     def getSingle(self, location_order):
