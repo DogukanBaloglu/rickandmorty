@@ -1,5 +1,5 @@
 import requests
-from base import  Base
+from .base import Base
 
 class Episodes(Base):
     def getAll(self):
