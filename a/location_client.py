@@ -1,5 +1,5 @@
 import requests
-from .base import Base
+from RickandMorty.base  import Base
 
 class Locations(Base):
     def getAll(self):
