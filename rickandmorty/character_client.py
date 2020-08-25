@@ -1,5 +1,5 @@
 import requests
-from RickandMorty.base  import Base
+from rickandmorty.base  import Base
 
 class Characters(Base):
 

@@ -1,5 +1,5 @@
 import requests
-from RickandMorty.base  import Base
+from rickandmorty.base  import Base
 
 class Locations(Base):
     def getAll(self):
@@ -33,7 +33,7 @@ class Locations(Base):
             type=filter by the given type.\n
             dimension=filter by the given dimension.\n
 
-            Returns: Location matching the given values.
+            Returns: Locations matching the given values.
         """
         payload = {'name': name ,  'type': type, 'dimension': dimension}
         response = requests.get(self.url+'location/', params=payload)

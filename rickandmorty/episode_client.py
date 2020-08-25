@@ -1,12 +1,12 @@
 import requests
-from RickandMorty.base  import Base
+from rickandmorty.base  import Base
 
 class Episodes(Base):
     def getAll(self):
         """
             Args: No arg necessary
 
-            Returns: All episode information in the json
+            Returns: All episodes information in the json.
         """
         response = requests.get(self.url+'episode/')
         return response.json()
@@ -32,7 +32,7 @@ class Episodes(Base):
             Args: name =filter by the given name.\n
             episode=filter by the given episode code.\n
 
-            Returns: Episode matching the given values.
+            Returns: Episodes matching the given values.
         """
         payload = {'name': name, 'episode': episode}
         response = requests.get(self.url+'episode/', params=payload)
