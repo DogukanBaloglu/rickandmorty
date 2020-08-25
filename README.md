@@ -4,18 +4,13 @@
 - *Documentation: https://ramapi.readthedocs.io.*
  
  ## About 
- ---------------------
-  All methods return json 
-  İmport:
+  
+  All methods return json   
+  ***Import:***  
+  
+     import rickandmorty 
   
  
  
  > deneeme lorem loerm ***deneeme*** deneme   
-* a
-* b  
-* c 
-deneme
 
-    import deneme.py 
----------------------------
-- deneme
