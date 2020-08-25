@@ -10,7 +10,5 @@
   
      import rickandmorty 
   
- 
- 
- > deneeme lorem loerm ***deneeme*** deneme   
+
 
