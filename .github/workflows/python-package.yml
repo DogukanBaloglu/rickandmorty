@@ -25,8 +25,7 @@ jobs:
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
  
-    - name: Coverage
+    - name: Tests
       run: |
-        pip install coverage
-        coverage run test_RickandMorty.py
+        pytest --cov=./
 
