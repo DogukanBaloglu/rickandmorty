@@ -27,6 +27,5 @@ jobs:
  
     - name: Tests
       run: |
-        pip install coverage
-        coverage run test_RickandMorty.py
+        pytest --cov=./test_RickandMorty.py
 
