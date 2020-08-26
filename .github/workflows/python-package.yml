@@ -28,5 +28,5 @@ jobs:
     - name: Tests
       run: |
         pip install coverage
-        coverage run tests.py
+        coverage run test_RickandMorty.py
 
