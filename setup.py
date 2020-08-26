@@ -18,7 +18,7 @@ setup(
     version='0.1.0',
     description='Rick and Morty client for Rick and Morty API (https://rickandmortyapi.com/) ',
     long_description= readme ,
-    long_description_contet_type='text/markdown',
+    long_description_content_type='text/markdown',
     license='MIT License',
     install_requires=['requests'],
     test_require=[''],
