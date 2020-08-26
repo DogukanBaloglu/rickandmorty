@@ -13,7 +13,7 @@ install:
 script:
   - tox -v -e py
 
-d
+
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
