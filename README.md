@@ -77,13 +77,13 @@
   
   ***Functions:***   
   
- -  getAll() : You can access the list of episodes.   
+ -  getAll( ) : You can access the list of episodes.   
    
- -  getSingle() : You can get a single episode by adding the id.
+ -  getSingle( id ) : You can get a single episode by adding the id.
    
- -  getMultiple() : You can get multiple episodes by adding ids.
+ -  getMultiple( ids ) : You can get multiple episodes by adding ids.
    
- -  filter() : You can include filters by including additional query parameters.
+ -  filter( name , episode) : You can include filters by including additional query parameters.
     
  
   ### For detailed information:    
