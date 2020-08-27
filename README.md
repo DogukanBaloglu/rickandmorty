@@ -1,5 +1,7 @@
+ ![workflow for Codecov](https://github.com/DogukanBaloglu/rickandmorty/workflows/workflow%20for%20Codecov/badge.svg?branch=master)  
  Rick And Morty Client 
 =======================
+
 - *Python implementation for the Rick and Morty API (https://rickandmortyapi.com/)*  
  
  ## About 
