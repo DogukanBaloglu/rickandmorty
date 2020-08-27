@@ -21,4 +21,5 @@ jobs:
         pip install pytest
         pip install pytest-cov
         pytest --cov=./ --cov-report=xml
+        file: ./coverage.xml
     
