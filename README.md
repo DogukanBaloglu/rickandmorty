@@ -2,56 +2,73 @@
 [![Codecov](https://img.shields.io/codecov/c/github/DogukanBaloglu/rickandmorty?color=brightgreen)](https://github.com/DogukanBaloglu/rickandmorty/actions/runs/226808122)
 [![GitHub](https://img.shields.io/github/license/DogukanBaloglu/rickandmorty?color=yellow)](https://github.com/DogukanBaloglu/rickandmorty/blob/master/LICENSE)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DogukanBaloglu/rickandmorty)  
- Rick And Morty Client 
+ RICK AND MORTY CLIENT
 =======================
  
   *Python implementation for the Rick and Morty API (https://rickandmortyapi.com/)*    
  All methods return json   
- ## Installation: 
+ # Installation: 
   
      pip install rickandmorty
       
- ## Usage:
+ # Usage:
   
-  ***Import:***  
+ ## Import:  
   
      import rickandmorty 
   
  
- ***Characters:***
+ ## Characters:
 
-    from rickandmorty import Characters
+    from rickandmorty import Characters  
     
+| *Key* | *Description*  | 
+|--|--|
+| id | The id of the character. There are `671` characters . |
+| name | The name of the character. | 
+| status | The status of the character (`Alive`, `Dead` or `unknown`). |
+| species| The species of the character. |
+| type| The type or subspecies of the character. | 
+| gender| The gender of the character (`Female`, `Male`, `Genderless` or `unknown`). |  
+
+  ***Functions:***  
   
+ -  getAll()  : You can access the list of characters . 
+   
+ -  getSingle(id) : You can get a single character by adding the id.
+   
+ -  getMultiple(ids) : You can get multiple characters by adding  ids.
+   
+ -  filter(name,status,species,type,gender) : You can also include filters by including additional query parameters.
+   
+   
  ***Locations:***
 
     from rickandmorty import Locations
     
-
+  It includes 4 funtions: 
+  -  getAll()  
+   
+  -  getSingle() 
+   
+  -  getMultiple()
+   
+  -  filter()  
+  
+  
  ***Episodes:***
 
     from rickandmorty import Episodes
-    
+  
+   It includes 4 funtions: 
+ -  getAll() :  
+   
+ -  getSingle() 
+   
+ -  getMultiple()
+   
+ -  filter()
     
  
-  
-   - It includes 4 funtions:  
-  1.getAll(): Returns, all characters information.    
-  2.getSingle(): Returns, the properties of the given number's defined character (Between 1 to 671).        
-  3.getMultiple(): Returns, The properties of the given numbers' defined characters (Between 1 to 671).        
-  4.filter(): Returns,Characters matching the given values(name,status,species,type,gender).  
-  
-   - It includes 4 funtions:  
-  1.getAll(): Returns, all locations information.      
-  2.getSingle(): Returns, the properties of the given number's defined location (Between 1 to 108).          
-  3.getMultiple(): Returns, The properties of the given numbers' defined locations (Between 1 to 108).          
-  4.filter(): Returns,Locations matching the given values(name,type,dimension).  
-  
-   - It includes 4 funtions:  
-  1.getAll(): Returns, all episodes information.    
-  2.getSingle(): Returns, the properties of the given number's defined episode (Between 1 to 42).        
-  3.getMultiple(): Returns, The properties of the given numbers' defined episodes (Between 1 to 42).        
-  4.filter(): Returns,Episodes matching the given values(name,episode). 
-  
   ***For detailed information:***  
   - Visit official API Docs https://rickandmortyapi.com/documentation
