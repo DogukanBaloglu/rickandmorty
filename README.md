@@ -1,4 +1,4 @@
- ![workflow for Codecov](https://github.com/DogukanBaloglu/rickandmorty/workflows/workflow%20for%20Codecov/badge.svg?branch=master)  
+
  Rick And Morty Client 
 =======================
 
@@ -18,13 +18,13 @@
   
  ***Base class features:***
  
-    from rickandmorty.base import Base  
+    from rickandmorty import Base  
   
  - It does not return anything. It was created for easy use of the base url(https://rickandmortyapi.com/api/) in other classes.
  
  ***Characters class features:***
 
-    from rickandmorty.character_client import Characters
+    from rickandmorty import Characters
     
  - It includes 4 funtions:  
   1.getAll(): Returns, all characters information.    
@@ -34,7 +34,7 @@
   
  ***Locations class features:***
 
-    from rickandmorty.location_client import Locations
+    from rickandmorty import Locations
     
  - It includes 4 funtions:  
   1.getAll(): Returns, all locations information.      
@@ -44,7 +44,7 @@
   
  ***Episodes class features:***
 
-    from rickandmorty.episode_client import Episodes
+    from rickandmorty import Episodes
     
  - It includes 4 funtions:  
   1.getAll(): Returns, all episodes information.    
