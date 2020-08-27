@@ -1,8 +1,7 @@
 [![PyPI](https://img.shields.io/pypi/v/rickandmorty?color=important)](https://pypi.org/project/rickandmorty/)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DogukanBaloglu/rickandmorty)
 [![Codecov](https://img.shields.io/codecov/c/github/DogukanBaloglu/rickandmorty?color=brightgreen)](https://github.com/DogukanBaloglu/rickandmorty/actions/runs/226808122)
 [![GitHub](https://img.shields.io/github/license/DogukanBaloglu/rickandmorty?color=yellow)](https://github.com/DogukanBaloglu/rickandmorty/blob/master/LICENSE)
-
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DogukanBaloglu/rickandmorty)  
  Rick And Morty Client 
 =======================
 
