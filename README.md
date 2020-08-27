@@ -46,7 +46,7 @@
     
 | *Key* | *Description*  | 
 |--|--|
-| id | The id of the location. There are 108 locations . |
+| id | The id of the location. There are `108` locations . |
 | name | The name of the location. | 
 | type| The type of the location. | 
 | dimension| The dimension in which the location is located. |  
