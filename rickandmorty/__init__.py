@@ -1,7 +1,7 @@
-from rickandmorty.base import Base
-from rickandmorty.character_client import Characters
-from rickandmorty.episode_client import Episodes
-from rickandmorty.location_client import Locations
+from .base import Base
+from .character_client import Characters
+from .episode_client import Episodes
+from .location_client import Locations
 
 
 
