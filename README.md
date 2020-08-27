@@ -31,7 +31,7 @@
     
  - It includes 4 funtions:  
   1.getAll(): Returns, all characters information.    
-  2.getSingle():Returns, the properties of the given number's defined character (Between 1 to 671).        
+  2.getSingle(): Returns, the properties of the given number's defined character (Between 1 to 671).        
   3.getMultiple(): Returns, The properties of the given numbers' defined characters (Between 1 to 671).        
   4.filter():Returns, Characters matching the given values(name,status,species,type,gender).  
   
