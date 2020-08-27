@@ -13,8 +13,6 @@
       
  # Usage:
   
- ***Import:***  
-  
      from rickandmorty import *
   
  
