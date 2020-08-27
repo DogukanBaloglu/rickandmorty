@@ -5,8 +5,8 @@
  RICK AND MORTY CLIENT
 =======================
  
-  *Python implementation for the Rick and Morty API (https://rickandmortyapi.com/)*    
- All methods return json   
+  *Python implementation for the Rick and Morty API (https://rickandmortyapi.com/)*      
+
  # Installation: 
   
      pip install rickandmorty
@@ -83,7 +83,7 @@
    
  -  getMultiple( ids ) : You can get multiple episodes by adding ids.
    
- -  filter( name , episode) : You can include filters by including additional query parameters.
+ -  filter( name , episode ) : You can include filters by including additional query parameters.
     
  
   ### For detailed information:    
