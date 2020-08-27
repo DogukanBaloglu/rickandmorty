@@ -20,4 +20,5 @@ jobs:
         pip install requests
         pip install pytest
         pip install pytest-cov
-        pytest --cov=
+        pytest --cov=./ --cov-report=xml
+    
