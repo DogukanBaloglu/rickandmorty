@@ -33,7 +33,7 @@
   1.getAll(): Returns, all characters information.    
   2.getSingle(): Returns, the properties of the given number's defined character (Between 1 to 671).        
   3.getMultiple(): Returns, The properties of the given numbers' defined characters (Between 1 to 671).        
-  4.filter():Returns, Characters matching the given values(name,status,species,type,gender).  
+  4.filter(): Returns,Characters matching the given values(name,status,species,type,gender).  
   
  ***Locations class features:***
 
@@ -43,7 +43,7 @@
   1.getAll(): Returns, all locations information.      
   2.getSingle(): Returns, the properties of the given number's defined location (Between 1 to 108).          
   3.getMultiple(): Returns, The properties of the given numbers' defined locations (Between 1 to 108).          
-  4.filter():Returns, Locations matching the given values(name,type,dimension).  
+  4.filter(): Returns,Locations matching the given values(name,type,dimension).  
   
  ***Episodes class features:***
 
@@ -53,7 +53,7 @@
   1.getAll(): Returns, all episodes information.    
   2.getSingle(): Returns, the properties of the given number's defined episode (Between 1 to 42).        
   3.getMultiple(): Returns, The properties of the given numbers' defined episodes (Between 1 to 42).        
-  4.filter():Returns, Episodes matching the given values(name,episode).  
+  4.filter(): Returns,Episodes matching the given values(name,episode).  
   
   ***For detailed information:***  
   - Visit official API Docs https://rickandmortyapi.com/documentation
