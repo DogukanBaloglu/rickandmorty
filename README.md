@@ -33,34 +33,44 @@
 
   ***Functions:***  
   
- -  getAll()  : You can access the list of characters . 
+ -  getAll( )  : You can access the list of characters . 
    
- -  getSingle(id) : You can get a single character by adding the id.
+ -  getSingle( id ) : You can get a single character by adding the id.
    
- -  getMultiple(ids) : You can get multiple characters by adding  ids.
+ -  getMultiple( ids ) : You can get multiple characters by adding  ids.
    
- -  filter(name,status,species,type,gender) : You can also include filters by including additional query parameters.
+ -  filter( name , status , species , type , gender ) : You can also include filters by including additional query parameters.
    
    
- ***Locations:***
+ ## Locations:
 
     from rickandmorty import Locations
     
-  It includes 4 funtions: 
-  -  getAll()  
+| *Key* | *Description*  | 
+|--|--|
+| id | The id of the location. There are 108 locations . |
+| name | The name of the location. | 
+| type| The type of the location. | 
+| dimension| The dimension in which the location is located. |  
+
+    
+  ***Functions:***  
+  
+  -  getAll( ) : You can access the list of locations.
    
-  -  getSingle() 
+  -  getSingle( id ) : You can get a single location by adding the id.
    
-  -  getMultiple()
+  -  getMultiple( ids ) : You can get multiple locations by adding ids.
    
-  -  filter()  
+  -  filter( name , type , dimension ) : You can also include filters by including additional query parameters.
   
   
- ***Episodes:***
+ ## Episodes:
 
     from rickandmorty import Episodes
   
-   It includes 4 funtions: 
+  ***Functions:***   
+  
  -  getAll() :  
    
  -  getSingle() 
