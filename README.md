@@ -13,9 +13,9 @@
       
  # Usage:
   
- ## Import:  
+ ***Import:***  
   
-     import rickandmorty 
+     from rickandmorty import *
   
  
  ## Characters:
@@ -39,7 +39,7 @@
    
  -  getMultiple( ids ) : You can get multiple characters by adding  ids.
    
- -  filter( name , status , species , type , gender ) : You can also include filters by including additional query parameters.
+ -  filter( name , status , species , type , gender ) : You can include filters by including additional query parameters.
    
    
  ## Locations:
@@ -62,23 +62,32 @@
    
   -  getMultiple( ids ) : You can get multiple locations by adding ids.
    
-  -  filter( name , type , dimension ) : You can also include filters by including additional query parameters.
+  -  filter( name , type , dimension ) : You can include filters by including additional query parameters.
   
   
  ## Episodes:
 
     from rickandmorty import Episodes
+
+
+| *Key* | *Description*  | 
+|--|--|
+| id | The id of the episode. There are `41` episodes. |
+| name | The name of the episode. | 
+| episode| The code of the episode. |  
+
   
   ***Functions:***   
   
- -  getAll() :  
+ -  getAll() : You can access the list of episodes.   
    
- -  getSingle() 
+ -  getSingle() : You can get a single episode by adding the id.
    
- -  getMultiple()
+ -  getMultiple() : You can get multiple episodes by adding ids.
    
- -  filter()
+ -  filter() : You can include filters by including additional query parameters.
     
  
-  ***For detailed information:***  
-  - Visit official API Docs https://rickandmortyapi.com/documentation
+  ### For detailed information:    
+  
+  Visit official API Docs https://rickandmortyapi.com/documentation
