@@ -2,8 +2,8 @@
 [![Codecov](https://img.shields.io/codecov/c/github/DogukanBaloglu/rickandmorty?color=brightgreen)](https://github.com/DogukanBaloglu/rickandmorty/actions/runs/226808122)
 [![GitHub](https://img.shields.io/github/license/DogukanBaloglu/rickandmorty?color=yellow)](https://github.com/DogukanBaloglu/rickandmorty/blob/master/LICENSE)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/DogukanBaloglu/rickandmorty)   
-
-RICK AND MORTY CLIENT ![image](https://user-images.githubusercontent.com/48068925/91556398-54024a80-e93b-11ea-9bcc-ad727eeda659.png)
+![image](https://user-images.githubusercontent.com/48068925/91556398-54024a80-e93b-11ea-9bcc-ad727eeda659.png)
+RICK AND MORTY CLIENT 
 =======================
  
   *Python implementation for the Rick and Morty API (https://rickandmortyapi.com/)*      
