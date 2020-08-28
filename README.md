@@ -8,11 +8,11 @@ RICK AND MORTY CLIENT
  
   *Python implementation for the Rick and Morty API (https://rickandmortyapi.com/)*  
   
- #  Installation: <img src="https://user-images.githubusercontent.com/48068925/91557433-228a7e80-e93d-11ea-9aa6-2c393c75fbdc.png" width='25'> 
+ #  Installation: <img src="https://user-images.githubusercontent.com/48068925/91557433-228a7e80-e93d-11ea-9aa6-2c393c75fbdc.png" width='22'> 
   
      pip install rickandmorty
       
- # Usage:   <img src="https://user-images.githubusercontent.com/48068925/91558650-6b433700-e93f-11ea-86a2-184f8502be37.png" width='25'> 
+ # Usage:   <img src="https://user-images.githubusercontent.com/48068925/91558650-6b433700-e93f-11ea-86a2-184f8502be37.png" width='20'> 
   
      from rickandmorty import *
   
