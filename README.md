@@ -6,9 +6,9 @@
 RICK AND MORTY CLIENT 
 =======================
  
-  *Python implementation for the Rick and Morty API (https://rickandmortyapi.com/)*      
-
- # Installation: 
+  *Python implementation for the Rick and Morty API (https://rickandmortyapi.com/)*  
+  
+ #  Installation: <img src="https://user-images.githubusercontent.com/48068925/91557433-228a7e80-e93d-11ea-9aa6-2c393c75fbdc.png" width='25'> 
   
      pip install rickandmorty
       
