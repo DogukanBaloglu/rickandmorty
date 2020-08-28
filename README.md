@@ -12,7 +12,7 @@ RICK AND MORTY CLIENT
   
      pip install rickandmorty
       
- # Usage:   <img src="https://user-images.githubusercontent.com/48068925/91558349-d80a0180-e93e-11ea-9379-214dd63f60cc.png" width='27'> 
+ # Usage:   <img src="https://user-images.githubusercontent.com/48068925/91558650-6b433700-e93f-11ea-86a2-184f8502be37.png" width='25'> 
   
      from rickandmorty import *
   
