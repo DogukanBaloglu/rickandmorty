@@ -12,12 +12,12 @@ RICK AND MORTY CLIENT
   
      pip install rickandmorty
       
- # Usage:
+ # Usage:   <img src="https://user-images.githubusercontent.com/48068925/91558349-d80a0180-e93e-11ea-9379-214dd63f60cc.png" width='27'> 
   
      from rickandmorty import *
   
  
- ## Characters:
+ ## Characters: 
 
     from rickandmorty import Characters  
     
